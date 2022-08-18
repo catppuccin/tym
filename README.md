@@ -21,7 +21,7 @@
 2. Move to the clonned directory.
 3. Copy the `theme.lua` file into `.config/tym`
 ```bash
-  git clone https://github.com/catppuccin/tym.git && cd tym && cp ./theme.lua ~/.config/tym
+  git clone https://github.com/catppuccin/tym.git && cp tym/theme.lua ~/.config/tym
 ```
 4. To select a flavour, edit the `flavour` variable at the start of `theme.lua`, default is "mocha", but other available options are "latte", "frappe" or "macchiato".
 ```lua
