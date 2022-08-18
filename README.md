@@ -17,31 +17,21 @@
 
 ## Usage
 
-1. Clone this repository
-2. Enter the clonned directory
-3. Select a flavour directory and move the `theme.lua` file inside to `.config/tym`
-    - Latte flavour
-    ```bash
-    git clone https://github.com/catppuccin/tym.git && cd tym && mv ./latte/theme.lua ~/.config/tym
-    ```
-    - Frappe flavour
-    ```bash
-    git clone https://github.com/catppuccin/tym.git && cd tym && mv ./frappe/theme.lua ~/.config/tym
-    ```
-    - Macchiato flavour
-    ```bash
-    git clone https://github.com/catppuccin/tym.git && cd tym && mv ./macchiato/theme.lua ~/.config/tym
-    ```
-    - Mocha flavour
-    ```bash
-    git clone https://github.com/catppuccin/tym.git && cd tym && mv ./mocha/theme.lua ~/.config/tym
-    ```
+1. Clone this repository.
+2. Move to the clonned directory.
+3. Copy the `theme.lua` file into `.config/tym`
+```bash
+  git clone https://github.com/catppuccin/tym.git && cd tym && cp ./theme.lua ~/.config/tym
+```
+4. To select a flavour, edit the `flavour` variable at the start of `theme.lua`, default is "mocha", but other available options are "latte", "frappe" or "macchiato".
+```lua
+  local flavour = "mocha"
+```
 
 ## 🙋 FAQ
 
 -	Q: **_"I copied and pasted the installation command but I get an error!"_**
-	
-> A: make sure you have a tym directory in `.config` or create one with ```mkdir ~/.config/tym```
+> A: Make sure you have a tym directory in `.config` or create one with ```mkdir ~/.config/tym```
 
 
 ## 💝 Thanks to
