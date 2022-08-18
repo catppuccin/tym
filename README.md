@@ -12,21 +12,32 @@
 </p>
 
 <p align="center">
-  <img src="assets/showcase.png"/>
+  <img src="./assets/ss.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository
-2. Enter the folder of clone
-3. Move `theme.lua` to `.config/tym/`:
+1. Clone this repository.
+2. Move to the clonned directory.
+3. Copy the `theme.lua` file into `.config/tym`
+```bash
+  git clone https://github.com/catppuccin/tym.git && cp tym/theme.lua ~/.config/tym
 ```
-mv theme.lua ~/.config/tym
+4. To select a flavour, edit the `flavour` variable at the start of `theme.lua`, default is "mocha", but other available options are "latte", "frappe" or "macchiato".
+```lua
+  local flavour = "mocha"
 ```
+
+## 🙋 FAQ
+
+-	Q: **_"I copied and pasted the installation command but I get an error!"_**
+    - A: Make sure you have a tym directory in `.config` or create one with ```mkdir ~/.config/tym```
+
 
 ## 💝 Thanks to
 
 - [justleoo](https://github.com/justleoo)
+- [Adal Zanabria](https://github.com/AdalZanabria)
 
 &nbsp;
 
