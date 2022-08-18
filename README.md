@@ -31,7 +31,7 @@
 ## 🙋 FAQ
 
 -	Q: **_"I copied and pasted the installation command but I get an error!"_**
-> A: Make sure you have a tym directory in `.config` or create one with ```mkdir ~/.config/tym```
+    - A: Make sure you have a tym directory in `.config` or create one with ```mkdir ~/.config/tym```
 
 
 ## 💝 Thanks to
